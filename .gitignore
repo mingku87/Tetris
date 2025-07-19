@@ -1,0 +1,205 @@
+############
+# 기본 파일
+############
+# Visual Studio 사용자별 설정
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 백업 / 임시
+*~
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+*.log
+
+############
+# 빌드 산출물 (Debug / Release 등)
+############
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+x64/
+x86/
+ARM/
+ARM64/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ww][Ii][Nn]32/
+[Dd]ebug*/
+[Rr]elease*/
+[Rr]eleases/
+[Dd]ist/
+out/
+ipch/
+
+# 중간/캐시
+*.pch
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.VC.db
+*.VC.VC.opendb
+
+# 링커 / 라이브러리 산출물
+*.lib
+*.a
+*.exp
+*.dll
+*.so
+*.dylib
+
+# 실행 파일
+*.exe
+*.app
+*.msi
+*.apk
+
+# 기타 빌드 파생물
+*.cache
+*.dll.config
+*.manifest
+
+############
+# C/C++ 컴파일러 중간 결과
+############
+*.o
+*.lo
+*.la
+*.slo
+
+############
+# 프로파일러 / 분석
+############
+*.gcno
+*.gcda
+*.gcov
+
+############
+# 크래시 / 덤프
+############
+*.dmp
+*.mdmp
+
+############
+# 테스트/커버리지 결과
+############
+[Test[Rr]esult]*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+*.trx
+
+############
+# 패키지 / 의존성
+############
+# NuGet
+packages/
+!packages/*/         # (빈 폴더 유지)
+!packages/**/readme.*  # readme 허용
+# 단, packages.config / *.csproj 내 PackageReference 사용 시 자동복원되므로 산출물 제외
+*.nupkg
+
+# Python (혹시 파이썬 스크립트 섞여있다면)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+venv/
+env/
+
+############
+# 로그 / 설정
+############
+*.swp
+*.sln.iml
+
+############
+# 이미지/에셋 원본 중 미사용 캐시 (필요 시 유지)
+############
+# (필요하면 아래 주석 해제)
+# *.psd
+# *.xcf
+
+############
+# 기타 IDE
+############
+*.opendb
+*.tsscache
+*.vsidx
+*.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+############
+# C# (만약 C# 프로젝트 포함)
+############
+*.AssemblyInfoInputs.cache
+*.AssemblyAttributes.cs
+
+############
+# DotNet 빌드 산출물
+############
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+############
+# 크로스 플랫폼 도구
+############
+# CMake
+[Cc]MakeFiles/
+[Cc]MakeCache.txt
+cmake-build-*/
+Makefile
+CMakeScripts/
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+############
+# 기타 선택적
+############
+# JetBrains Rider / ReSharper
+.idea/
+*.DotSettings.user
+
+# Unity 프로젝트가 아니라면 아래 섹션은 주석 유지
+# (Unity면 별도의 Unity 전용 .gitignore 사용)
+# Library/
+# Temp/
+# Logs/
+# Obj/
+# MemoryCaptures/
+# Build/
+# Builds/
+# UserSettings/
+# *.unityproj
+# *.pidb
+# *.booproj
+# *.svd
+# .gradle/
+# .gradle
+# *.apk
+# *.aab
+
